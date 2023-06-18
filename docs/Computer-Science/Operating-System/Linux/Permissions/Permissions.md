@@ -1,11 +1,13 @@
 # Permissions
 
-- [ ] [Unix Permissions](https://networking.ringofsaturn.com/Unix/unixpermissions.php)
+- [x] [Unix Permissions](https://networking.ringofsaturn.com/Unix/unixpermissions.php)
 
 <figure markdown>
   ![file-properties-shown-by-typing-ls-l](./assets/file-properties-shown-by-typing-ls-l.jpeg)
   <figcaption>File properties shown by typing `ls -l`</figcaption>
 </figure>
+![img](./assets/UnixPermissions.gif)
+
 
 - file properties/attributes
     - file type: 1 character
@@ -13,6 +15,16 @@
         - file owner
         - file group owner
         - everybody else
+
+| Chatacter | Meaning                               |
+| --------- | ------------------------------------- |
+| `-`       | file, regular file                    |
+| `d`       | directory                             |
+| `b`       | {==block special file 块设备文件==}   |
+| `c`       | character special file 字符设备文件   |
+| `p`       | named pipe special file FIFO管道文件  |
+| `s`       | local socket special file 套接字文件  |
+| `l`       | {==symbolic link file 符号链接文件==} |
 
 ??? umask
     ``` sh linenums="1" hl_lines="1"
@@ -129,3 +141,12 @@
     
     $
     ```
+
+## 题目
+
+文件 test 的访问权限为 `rw-r--r--`，要增加所有用户的执行权限和同组用户的写权限，以下哪个命令正确?
+
+``` sh
+chmod a+x,g+w test
+```
+

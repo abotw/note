@@ -195,10 +195,10 @@
 	$
 	```
 
-### cd
+### cd P92-考
 
 ??? cd
-	``` sh linenums="1" hl_lines="1"
+	``` sh linenums="1" hl_lines="27-28 30-31 33-34 36-37 39-40 42-43"
 	$ curl cheat.sh/
 	cd
 	cheat:cd 
@@ -232,7 +232,7 @@
 	cd ..
 	
 	# Go to the home directory of the current user:
-	cd
+	cd # (1)
 	
 	# Go to the home directory of the specified user:
 	cd ~username
@@ -246,9 +246,11 @@
 	$
 	```
 
-### ls
+	1. `cd` = `cd ~`
 
-??? ls
+### ls P93 考
+
+!!! ls
 	``` sh linenums="1" hl_lines="4-5 7-8 55-56 71"
 	$ curl cheat.sh/
 	ls
@@ -322,6 +324,10 @@
 	
 	ll # = `ls -hl`
 	```
+	
+#### Long Listing Format
+
+
 
 ## View File Contents
 
@@ -655,10 +661,10 @@ $ file /etc/shadow
 	$
 	```
 
-### `chmod`
+### `chmod` P81-考
 
 ??? chmod
-	``` sh linenums="1" hl_lines="7-8"
+	``` sh linenums="1" hl_lines="7-8 62-66 105-106 108-109"
 	$ curl cheat.sh/
 	chmod
 	cheat.sheets:chmod 
@@ -720,11 +726,11 @@ $ file /etc/shadow
 	# Set user/group/global to read/write (myscript.sh), octal notation
 	chmod 666 myscript.sh
 	
-	# Roles
-	u - user (owner of the file)
-	g - group (members of file's group)
-	o - global (all users who are not owner and not part of group)
-	a - all (all 3 roles above)
+	# Roles 对象助记符
+	u - user (owner of the file) 文件的所有者
+	g - group (members of file's group) 文件组用户
+	o - global, others (all users who are not owner and not part of group)
+	a - all (all 3 roles above) 所有用户
 	
 	# Numeric representations
 	7 - full (rwx)
@@ -764,13 +770,29 @@ $ file /etc/shadow
 	chmod o= path/to/file
 	
 	# Change permissions recursively giving [g]roup and [o]thers the ability to [w]rite:
-	chmod -R g+w,o+w path/to/directory
+	chmod -R g+w,o+w path/to/directory # (1)
 	
 	# Recursively give [a]ll users [r]ead permissions to files and e[X]ecute permissions to sub-directories within a directory:
 	chmod -R a+rX path/to/directory
 	
 	$
 	```
+	
+	1. `-R`, `--recursive`：对目录以及目录下的文件递归执行更改权限操作。
+
+#### To change file modes symbolically
+
+``` sh
+$ chmod u+r,g=rx,o-rwx hello.sh
+```
+
+* 助记符
+	* 对象助记符
+	* 操作助记符
+	* 权限助记符
+
+![img](https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/cmds/aixcmds1/figures/cmds1141.jpg)
+
 
 ### mv
 
@@ -828,7 +850,7 @@ $ file /etc/shadow
 	$
 	```
 
-### cp
+### cp P83-考
 
 ??? cp
 	``` sh linenums="1" hl_lines="26 29-30 44-45"
@@ -1183,10 +1205,14 @@ $ rm -rf /*
 | ----------- | ------------------------------------ |
 | `/` 正斜线       | `\` 反斜线  |
 
-### `mkdir`
+### `mkdir` P92-考
+
+* options
+	1. `-p, [p]arent`
+	2. `-m, [m]ode`
 
 ??? mkdir
-	``` sh linenums="1" hl_lines="4-5 15 18-19"
+	``` sh linenums="1" hl_lines="4-5 15 18-19 24-25"
 	$ curl cheat.sh/
 	mkdir
 	cheat:mkdir 
@@ -1211,12 +1237,13 @@ $ rm -rf /*
 	mkdir -p path/to/directory1 path/to/directory2 ...
 	
 	# Create directories with specific permissions:
-	mkdir -m rwxrw-r-- path/to/directory1 path/to/directory2 ...
+	mkdir -m rwxrw-r-- path/to/directory1 path/to/directory2 ... # (2)
 	
 	$
 	```
 	
 	1. [p]arents
+	2. [m]ode
 
 ### `rmdir`
 
