@@ -34,7 +34,6 @@ markdown_extensions:
   # 结束：列表
   - pymdownx.tabbed: # 内容标签栏
       alternate_style: true
-  - attr_list
   - md_in_html
   # Begin Tooltips
   - abbr
@@ -48,6 +47,10 @@ markdown_extensions:
   - pymdownx.tilde 
   - pymdownx.keys # keyboard keys
   - pymdownx.mark # highlighting text
+  # Emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
