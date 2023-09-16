@@ -9,6 +9,7 @@
 | [异步社区](https://www.epubit.com/)                       | https://www.epubit.com/               | -                                                            |
 | [SoBooks](https://sobooks.net/)                           | https://sobooks.net/                  | 图书资源站                                                   |
 | [MobileRead Forums](https://www.mobileread.com/)          | https://www.mobileread.com/           | The resource for mobile geeks seeking information and advice for keeping their gadgets happy. |
+| [FreeComputerBooks](https://freecomputerbooks.com/)       | https://freecomputerbooks.com/        | Links to Free Computer, Mathematics, Technical Books all over the World |
 
 ## 电子书格式说明
 

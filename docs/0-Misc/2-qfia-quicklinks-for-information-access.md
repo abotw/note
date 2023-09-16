@@ -2,6 +2,13 @@
 
 **QFIA: Quicklinks for Information Access**
 
+## ToDos
+
+-   [小土刀 2.0](https://wdxtub.com/)
+-   https://atelier-anchor.com/
+-   https://rauno.me/
+-   https://xkcd.com/
+
 ## 文字 Articles
 
 ### Content Communities
@@ -88,26 +95,47 @@
 
 ### 数码
 
--   [**TESTV官方频道**@bilibili](https://space.bilibili.com/11336264/)
--   [**Apple活动**@bilibili](https://space.bilibili.com/293205786/)
--   [**Topbook**@bilibili](https://space.bilibili.com/29959830/)
--   [**我是Welber**@bilibili](https://space.bilibili.com/254663798/)
--   [**BIG东东**@bilibili](https://space.bilibili.com/108142407/)
--   [**钟文泽**@bilibili](https://space.bilibili.com/25910292/)
--   [**穆几MuJi**@bilibili](https://space.bilibili.com/9527340)
--   [**陈抱一**@bilibili](https://space.bilibili.com/3530725/)
--   [**90后科技说**@bilibili](https://space.bilibili.com/20695818/)
 -   [**影视飓风**@bilibili](https://space.bilibili.com/946974/)
--   [**黑貓的野望**@bilibili](https://space.bilibili.com/14202394/)
--   [**TecHour官方频道**@bilibili](https://space.bilibili.com/576517177/)
--   [**IOI科技**@bilibili](https://space.bilibili.com/507578555/)
--   [**少华有态度**@bilibili](https://space.bilibili.com/9247173/)
--   [**六分超超**@bilibili](https://space.bilibili.com/652137183/)
+
+-   [**TESTV官方频道**@bilibili](https://space.bilibili.com/11336264/)
+
+-   [**Apple活动**@bilibili](https://space.bilibili.com/293205786/)
+
+---
+
+-   [**大耳朵TV**@bilibili](https://space.bilibili.com/286187082/)
+
+-   [**钟文泽**@bilibili](https://space.bilibili.com/25910292/)
 -   [**常常开箱**@bilibili](https://space.bilibili.com/222217163/)
--   [**科技过电ShortCircuit**@bilibili](https://space.bilibili.com/693340454/)
+-   [**六分超超**@bilibili](https://space.bilibili.com/652137183/)
+-   [**少华有态度**@bilibili](https://space.bilibili.com/9247173/)
+-   [**陈抱一**@bilibili](https://space.bilibili.com/3530725/)
+-   [**BIG东东**@bilibili](https://space.bilibili.com/108142407/)
+-   [**我是Welber**@bilibili](https://space.bilibili.com/254663798/)
 -   [**黄杨ME**@bilibili](https://space.bilibili.com/91527228/)
 -   [**方糖sky**@bilibili](https://space.bilibili.com/11395929/)
--   [**大耳朵TV**@bilibili](https://space.bilibili.com/286187082/)    
+
+---
+
+-   [**90后科技说**@bilibili](https://space.bilibili.com/20695818/)
+
+---
+
+-   [**科技过电ShortCircuit**@bilibili](https://space.bilibili.com/693340454/)
+
+**软件**
+
+-   [**Topbook**@bilibili](https://space.bilibili.com/29959830/)
+-   [**IOI科技**@bilibili](https://space.bilibili.com/507578555/)
+-   [**TecHour官方频道**@bilibili](https://space.bilibili.com/576517177/)
+
+**果粉**
+
+-   [**黑貓的野望**@bilibili](https://space.bilibili.com/14202394/)
+
+
+
+[**穆几MuJi**@bilibili](https://space.bilibili.com/9527340)
 
 ### 健康
 
@@ -131,6 +159,8 @@
 -   [**海拉鲁青蛙**@bilibili](https://space.bilibili.com/61796827/)
 
 **穿搭**
+
+-   [**吕政懋MaoMao**@bilibili](https://space.bilibili.com/254436446)
 
 -   [**不服不韭菜**@bilibili](https://space.bilibili.com/18142941/)
 -   [**痴五安chammy**@bilibili](https://space.bilibili.com/327903909/)

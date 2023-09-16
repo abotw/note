@@ -8,6 +8,8 @@ theme:
     - navigation.tracking # 在url中使用标题定位锚点
     - navigation.top # 一键回顶部
     - navigation.sections # nav节点缩进
+    - navigation.tabs
+    - navigation.path
 # mkdocs.yml 相关配置
 markdown_extensions:
   - tables

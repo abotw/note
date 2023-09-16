@@ -30,6 +30,8 @@ install: 43 (30 days), 116 (90 days), 180 (365 days)
 
 -   [安装使用 GoldenDict 查词神器 — (Windows/Mac/Linux) 😃](https://keatonlao.gitee.io/use-goldendict/)
 
+-   [Linux 下非常好用的字典 GoldenDict](https://einverne.github.io/post/2018/08/goldendict.html)
+
 -   [Forvo](https://forvo.com/) - the pronunciation dictionary. All the words in the world pronounced by native speakers
 -   [GoldenDict - Github](https://github.com/goldendict/goldendict)
 

@@ -139,8 +139,12 @@ https://www.moedict.tw/{query} # 萌典 moedict
 
 - [ ] [安装使用 GoldenDict 查词神器 — (Windows/Mac/Linux) 😃](https://keatonlao.gitee.io/use-goldendict/)
 - [x] [Free Dictionaries for Everyone「辞书分享」](https://www.autoptr.top/gdocr/GoldenDict-OCR-Free-Dictionaries/)
+- [ ] [编译自己的 Mac 词典](https://blog.yuhaowin.com/2021-05-16-build-mac-dictionary/)
+- [ ] [Mdic字典文件转换mac原生字典](https://blog.i-ll.cc/archives/582/)
 
 **资源链接**
+
+-   [macOS 拓展词典](https://github.com/iHTCboy/macOSConfig/tree/master/macOS_Dictionary)
 
 -   [StarDict Dictionaries -- 星际译王词库 词典下载](http://download.huzheng.org/)
 -   [词典使用手册 - 适用于 macOS Ventura](https://support.apple.com/zh-cn/guide/dictionary/welcome/mac)

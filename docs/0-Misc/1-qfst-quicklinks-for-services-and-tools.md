@@ -51,3 +51,17 @@ site:seedhub.info
 ---
 
 -   [MacBL 马可菠萝](https://www.macbl.com/) - macOS App 资源站
+
+---
+
+### Cheatsheets & Quick references
+
+-   [QuickRef.ME](https://quickref.me/) - Share quick reference and cheat sheet for developers.
+-   [CheatSheets.zip](https://cheatsheets.zip/)
+-   [Rico's cheatsheets](https://devhints.io/)
+
+---
+
+### 语言
+
+-   [深言达意](https://www.shenyandayi.com/)

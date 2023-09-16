@@ -119,7 +119,20 @@
 
 ## 虚拟机
 
--   [VMware Fusion](http://www.vmware.com/) - 强大的虚拟机，商业软件。
+-   {==**[Virtual Box](http://www.virtualbox.org/) - VBox, VirtualBox is a powerful x86 and AMD64/Intel64 [virtualization](https://www.virtualbox.org/wiki/Virtualization) product for enterprise as well as home use. :simple-windows: :free: **==}
+
+---
+
+-   **[VMware](http://www.vmware.com/)**
+    -   {==**[VMware Fusion](https://www.vmware.com/cn/products/fusion.html) - 适用于 Mac 的桌面 Hypervisor。:simple-apple: :free: **==}
+    -   [VMware Workstation Player](https://www.vmware.com/cn/products/workstation-player.html) - 使用 VMware Workstation Player 在 Windows 或 Linux PC 上轻松地将多个操作系统作为虚拟机运行。
+    -   [VMware Workstation Pro](https://www.vmware.com/cn/products/workstation-pro.html) - VMware Workstation Pro 是行业标准桌面 Hypervisor，使用它可在 Windows 或 Linux 桌面上运行 Windows、Linux 和 BSD 虚拟机。
+
+-   [Parallels](http://www.parallels.com/) - 虽然好用但是收费机制，更新花钱、花钱、花钱。
+    -   [Parallels Desktop 19 for Mac](https://www.parallels.cn/products/desktop/)
+
+-   [KVM](https://www.linux-kvm.org/page/Main_Page) - KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). :simple-linux:
+-   [Xen](https://xenproject.org/) - THE MISSION OF THE XEN PROJECT IS TO ADVANCE VIRTUALIZATION TECHNOLOGY ACROSS A WIDE RANGE OF COMMERCIAL AND OPEN-SOURCE DOMAINS. :simple-linux:
 
 ## Communication 通信
 

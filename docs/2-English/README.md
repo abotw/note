@@ -1,5 +1,19 @@
 # README
 
+**Videos**
+
+-   [x] <https://www.bilibili.com/video/BV1c54y187SH/>
+
+## 近期任务
+
+**英语口语**
+
+-   [English Pronunciation in Use Elementray @ 哔哩哔哩](https://www.bilibili.com/video/BV1YV411W71G/)，[Quicklink](./2-English/%E5%8F%91%E9%9F%B3/English_Pronunciation_in_Use/)
+
+**待定**
+
+-   [瑞秋老师的口语发音课](https://www.bilibili.com/cheese/play/ss359) - 哔哩哔哩课堂
+
 ## Quicklinks
 
 ### 学习材料

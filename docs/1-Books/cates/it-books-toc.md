@@ -1,5 +1,9 @@
 # *IT Books TOC
 
+## ToDos
+
+-   [Computer Science from the Bottom Up](https://bottomupcs.com/)
+
 ## 0. 开源文化与黑客文化
 
 ## 1. 软件开发
@@ -18,11 +22,17 @@
 
 #### 1.2.3 Python
 
-| 中文名称 | 原作名                                                   | 作者                                  | 文件类型     | 添加日期   | 备注                                                 |
-| -------- | -------------------------------------------------------- | ------------------------------------- | ------------ | ---------- | ---------------------------------------------------- |
-| N/A      | [Composing Programs](https://www.composingprograms.com/) | [John DeNero](http://www.denero.org/) | English HTML | 2023-08-23 | [简介](https://www.composingprograms.com/about.html) |
+| 中文名称 | 原作名                                                   | 作者                                  | 文件类型                                      | 添加日期   | 备注                                                 |
+| -------- | -------------------------------------------------------- | ------------------------------------- | --------------------------------------------- | ---------- | ---------------------------------------------------- |
+| N/A      | [Composing Programs](https://www.composingprograms.com/) | [John DeNero](http://www.denero.org/) | English HTML                                  | 2023-08-23 | [简介](https://www.composingprograms.com/about.html) |
+| N/A      | A Byte of Python                                         | Swaroop C.H.                          | [English HTML](https://python.swaroopch.com/) | 2023-09-03 |                                                      |
 
 #### 1.2.4 Java
+
+| 中文名称 | 原作名                                             | 作者                                                         | 文件类型                                                     | 添加日期   | 备注                                                         |
+| -------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
+| N/A      | A Java Reference: Assorted Java Reference Material | Paul N. Hilfinger<br /> (University of California, Berkeley) | [English PDF](https://inst.eecs.berkeley.edu//~cs61b/fa14/book1/java.pdf) | 2023-09-10 | N/A                                                          |
+| N/A      | Head First Java, 2nd Edition                       | Kathy Sierra & Bert Bates                                    | N/A                                                          | 2023-09-10 | [简介](https://www.oreilly.com/library/view/head-first-java/0596009208/) |
 
 #### 1.2.5 Javascript
 
@@ -68,16 +78,19 @@
 
 ### 3.1 操作系统原理
 
-| 中文书名                                                     | 原作名                                                       | 作者                                                         | 文件类型                                                     | 添加日期   | 备注                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ |
-| [深入理解计算机系统](http://www.cmpbook.com/products/detail?id=42585) | [Computer Systems: A Programmer's Perspective, 3rd Edition](http://csapp.cs.cmu.edu/3e/home.html)<br />*知名缩写*：CS:APP3e | [Randal E. Bryant](http://www.cs.cmu.edu/~bryant) and [David R. O'Hallaron](http://www.cs.cmu.edu/~droh) | [中文 HTML，第3版](https://hansimov.gitbook.io/csapp/)<br />English PDF, 3rd | 2023-08-23 | [简介](http://csapp.cs.cmu.edu/3e/about.html)<br />[豆瓣](https://book.douban.com/subject/26912767/)<br />![CS:APP3e](http://csapp.cs.cmu.edu/3e/images/csapp3e-cover.jpg) |
+| 中文书名                                                     | 原作名                                                       | 作者                                                         | 文件类型                                                     | 添加日期                                                     | 备注                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [深入理解计算机系统](http://www.cmpbook.com/products/detail?id=42585) | [Computer Systems: A Programmer's Perspective, Third Edition](http://csapp.cs.cmu.edu)<br /><br />***缩写：***CS:APP3e | [Randal E. Bryant](http://www.cs.cmu.edu/~bryant) and [David R. O'Hallaron](http://www.cs.cmu.edu/~droh) | [中文 HTML，第3版](https://hansimov.gitbook.io/csapp/)<br />English PDF, 3rd | 2023-08-23<br /><br />**2003**: 1st edition<br />**2011**: 2nd edition<br />**2016**: 3rd edition | [简介](http://csapp.cs.cmu.edu/3e/about.html)<br />[豆瓣](https://book.douban.com/subject/26912767/)<br />![CS:APP3e](http://csapp.cs.cmu.edu/3e/images/csapp3e-cover.jpg)<br /> |
 
 ### 3.2 实用教程
 
-| 中文书名                                                     | 原作名                                                       | 作者                                              | 文件类型     | 添加日期   | 备注                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | ------------ | ---------- | ------------------------------------------------------------ |
-| N/A                                                          | [Effective Shell](https://effective-shell.com/)              | Dave Kerr                                         | English HTML | 2023-08-23 | [简介](https://effective-shell.com/)                         |
-| [Unix & Linux大学教程](https://wqbook.wqxuetang.com/book/6405) | [Harley Hahn's Guide to Unix and Linux](https://www.harley.com/books/sg3.html) | [Harley Hahn](https://www.harley.com/index.shtml) | English PDF  | 2023-08-23 | [简介](https://www.harley.com/books/sg3.html)<br />[豆瓣](https://book.douban.com/subject/4253716/)<br />![the front cover](https://www.harley.com/books/images/sg3-large.jpg) |
+| 中文书名                                                     | 原作名                                                       | 作者                                              | 文件类型                                      | 添加日期   | 备注                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------- | --------------------------------------------- | ---------- | ------------------------------------------------------------ |
+| N/A                                                          | [Effective Shell](https://effective-shell.com/)              | Dave Kerr                                         | English HTML                                  | 2023-08-23 | [简介](https://effective-shell.com/)                         |
+| [Unix & Linux大学教程](https://wqbook.wqxuetang.com/book/6405) | [Harley Hahn's Guide to Unix and Linux](https://www.harley.com/books/sg3.html) | [Harley Hahn](https://www.harley.com/index.shtml) | English PDF                                   | 2023-08-23 | [简介](https://www.harley.com/books/sg3.html)<br />[豆瓣](https://book.douban.com/subject/4253716/)<br />![the front cover](https://www.harley.com/books/images/sg3-large.jpg) |
+| [Linux 101](https://101.lug.ustc.edu.cn/)                    | [Linux 101](https://101.lug.ustc.edu.cn/)                    | 中国科学技术大学 Linux 用户协会                   | 中文 HTML                                     | 2023-08-28 | Linux 101 学生课程教材与讲义<br />[Github](https://github.com/ustclug/Linux101-docs) |
+| [Linux C编程一站式学习](https://akaedu.github.io/book/index.html) | [Linux C编程一站式学习](https://akaedu.github.io/book/index.html) | 宋劲杉                                            | 中文 HTML                                     | 2023-08-28 | N/A                                                          |
+| Linux命令行大全（第2版）                                     | The Linux Command Line<br />缩写：*TLCL*                     | William Shotts                                    | [中文 HTML](https://billie66.github.io/TLCL/) | 2023-08-28 | [简介](https://linuxcommand.org/tlcl.php)                    |
 
 ## 4. 网络
 
