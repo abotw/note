@@ -1,6 +1,8 @@
 site_name: Abirdotw's Public Notebook
 theme:
   name: material
+  palette:
+    primary: lime
   features:
     - content.code.copy # render a code copy button
     - content.code.annotate # code annotations
@@ -12,6 +14,7 @@ theme:
     - navigation.path
 # mkdocs.yml 相关配置
 markdown_extensions:
+  - meta
   - tables
   - footnotes # adds the ability to define inline footnotes
   - toc:
@@ -26,8 +29,10 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets:
+      base_path: ["docs/3-CS/1-SD/02-PL/Python/python-programming/assignments"]
       auto_append:
         - includes/abbreviations.md
+      url_download: true
   - pymdownx.superfences
   # 开始：列表
   - def_list

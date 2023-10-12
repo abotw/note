@@ -147,3 +147,19 @@
 *[MS-DOS]: MicroSoft Disk Operating System
 
 *[apt]: Advanced Packaging Tool
+
+*[ADT]: Abstract Data Type
+
+*[EECE]: Electrical Engineering and Computer Engineering
+
+*[ASCII]: American Standard Code for Information Interchange
+
+*[DBMS]: Database Management System
+
+*[UML]: Unified Modeling Language
+
+*[UDP]: User Datagram Protocol
+
+*[TCP]: Transmission Control Protocol
+
+*[LAN]: Local Area Network
