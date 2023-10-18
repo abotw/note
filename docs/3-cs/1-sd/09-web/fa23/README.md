@@ -1,14 +1,8 @@
-# WDCPT: Web 开发综合实训，Fall 2023
+# Web 开发综合实训
 
-**Web Development Comprehensive Practical Training: Web 开发综合实训**
-
->   凡事预则立，不预则废。
->
->   *Preparedness ensures success and unpreparedness spells failure.*
->
->   ——《礼记·中庸》
-
-## ToDos
+-   Web 开发综合实训，Web Development Comprehensive Practical Training (WDCPT)
+-   2023 秋
+-   朱永忠
 
 ## Schedule
 
@@ -26,10 +20,13 @@
 | [Lecture 4 (Mon 09/25/23): ](./notes/note4/note4/)           | - [x] [Requests and Responses](https://www.cs.fsu.edu/~jtbauer/cis3931/tutorial/servlets/client-interaction/req-res.html)<br />- [ ] [Handling GET and POST Requests](https://www.cs.fsu.edu/~jtbauer/cis3931/tutorial/servlets/client-interaction/http-methods.html)<br />- [ ] [Getting Started with the Standard Tag Library](https://svn.ssec.wisc.edu/repos/APSPS/tags/B6/SPS/LIB/faces/JSTL/jakarta-taglibs-standard-1.1.2/doc/GettingStarted.html)<br />- [ ] [Using JSTL](https://faculty.cs.byu.edu/~rodham/cs462/BookCodeExamples/j2eetutorial14/doc/JSTL3.html) | [assign4-1](./assignments/assign4/assign4-1.pdf)<br />[assign4-2](./assignments/assign4/assign4-1.pdf)<br />**Out**: assign4 |
 | {==***Week 5, 10/02, 国庆休假***==}                          |                                                              |                                                              |
 | {++***Week 6, 10/09***++}                                    |                                                              |                                                              |
-| Lecture 4 (Mon 10/09/23):                                    |                                                              |                                                              |
+| 注册模块                                                     |                                                              |                                                              |
 | {++***Week 7, 10/16***++}                                    |                                                              |                                                              |
+| 分类模块                                                     |                                                              |                                                              |
 | {++***Week 8, 10/23***++}                                    |                                                              |                                                              |
+| 商品模块                                                     |                                                              |                                                              |
 | {++***Week 9, 10/30***++}                                    |                                                              |                                                              |
+| 购物车模块                                                   |                                                              |                                                              |
 | {++***Week 10, 11/06***++}                                   |                                                              |                                                              |
 | {++***Week 11, 11/13***++}                                   |                                                              |                                                              |
 | {--***Week 12, 11/20, 考试周***--}                           |                                                              |                                                              |
@@ -38,7 +35,3 @@
 
 -   **Lectures & Assignments:** Mon 8:00 AM - 11:40 AM in 401
 -   **Lecture codes:** `~/class/course_id/lecture-code/lect[N]`
-
----
-
-*[WDCPT]: Web Development Comprehensive Practical Training Web开发综合实训
