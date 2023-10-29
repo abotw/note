@@ -143,6 +143,29 @@ $5 = 90
 | `x &= (x - 1)` | 将 x 最低的 on 位关闭                                        |
 | `(x ^ y) < 0`  | 判断 x 和 y 是否异号（符号相异）                             |
 
+## 1. Bitwise Practice
+
+### 1.1 Base Conversion
+
+#### 1.1.1 Unix Tools
+
+-   **Bitwise Operation Explorer**, <https://mdrach.github.io/cs107-apps/>
+-   **GDB and Debugging**, <https://web.stanford.edu/class/archive/cs/cs107/cs107.1206/resources/gdb>
+
+### 1.2 Bitwise Operators
+
+### 1.3 Bitvectors
+
+### 1.4 Using and Constructing Bitmasks
+
+### 1.5 Bitwise Manipulation
+
+## 2. Round Up
+
+## 3. Midpoint (20 min)
+
+
+
 ## 2. 圆整
 
 打开 `round.c` 文件，查看函数 `is_power_of_2` 和 `round_up` 的代码。
@@ -463,5 +486,24 @@ tui e
 
 # quit
 quit
+```
+
+---
+
+从位的角度看大小写字母之间的关系。
+
+What is the bitwise relationship between the placement of the lowercase and uppercase alphabet within the ASCII table?
+
+Each lowercase letter is 32 + uppercase equivalent. This means simply flipping the bit at position 5 (counting from least significant bit at position 0) inverts the case of a letter.
+
+```c
+int main() {
+  char upper[26] = {0}, lower[26] = {0};
+  for (int i = 0, j = 'A'; j <= 'Z'; i ++, j ++ ) {
+    upper[i] = j;
+    lower[i] = upper[i] | 0x20;
+  }
+  return 0;
+}
 ```
 
