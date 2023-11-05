@@ -1,63 +1,93 @@
-site_name: Abirdotw's Public Notebook
+site_name: Matt's Notebooks
+#site_url: 
+#repo_url: 
+#repo_name: 
+#edit_uri: 
+site_description: Matt's Notebooks
+site_author: Matt
+
 theme:
   name: material
-  palette:
-    primary: lime
+#  logo: 
+#  favicon: 
+#  icon:
+#    repo: 
+#    edit: 
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
-    - content.code.copy # render a code copy button
-    - content.code.annotate # code annotations
-    # - toc.integrate # 右侧生产目录
-    - navigation.tracking # 在url中使用标题定位锚点
-    - navigation.top # 一键回顶部
-    - navigation.sections # nav节点缩进
+    - search.highlight
+#    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
-    - navigation.path
-# mkdocs.yml 相关配置
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.sections # nav节点缩进
+    - header.autohide
+    - content.code.copy
+    - content.code.annotate
+    - content.action.editå
+
 markdown_extensions:
   - meta
   - tables
-  - footnotes # adds the ability to define inline footnotes
+  # Python Markdown
   - toc:
       permalink: true
-      toc_depth: 4
+      toc_depth: 3
+  - abbr
+  - def_list
+  - attr_list
+  - footnotes
+  - md_in_html
   - admonition
+  - sane_lists
+  # Python Markdown Extensions
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
   - pymdownx.details
-  # CODE BLOCKS
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets:
-      base_path: ["docs/3-CS/1-SD/02-PL/Python/python-programming/assignments"]
-      auto_append:
-        - includes/abbreviations.md
-      url_download: true
-  - pymdownx.superfences
-  # 开始：列表
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  # 结束：列表
-  - pymdownx.tabbed: # 内容标签栏
-      alternate_style: true
-  - md_in_html
-  # Begin Tooltips
-  - abbr
-  - attr_list
-  - pymdownx.snippets
-  # End Tooltips
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.critic # tracking changes in documents
-  - pymdownx.caret # defining sub- and superscript
-  - pymdownx.tilde 
-  - pymdownx.keys # keyboard keys
-  - pymdownx.mark # highlighting text
-  # Emoji
+  - pymdownx.smartsymbols
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+      url_download: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - neoteroi.cards # install using `pip install neoteroi-mkdocs`, https://www.neoteroi.dev/mkdocs-plugins/
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
@@ -66,5 +96,9 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
+  - css/neoteroi-mkdocs.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
+plugins:
+  - search
+  - glightbox # install using `pip install mkdocs-glightbox`, https://blueswen.github.io/mkdocs-glightbox/

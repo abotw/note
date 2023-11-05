@@ -1,0 +1,12 @@
+- title: CSE/CS102
+  content: 计算机组成与系统<br/>薛浩
+  url: cs/csa/cse-cs102/index.md
+- title: Python程序设计
+  content: 王福环
+  url: cs/pl/py/23fall-py/index.md
+- title: Web开发综合实训
+  content: 朱永忠
+  url: cs/sd/web/23fall-web/index.md
+- title: UI交互设计
+  content: 葛田
+  url: cs/ui/23fall-ui/index.md

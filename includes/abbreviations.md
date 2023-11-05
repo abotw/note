@@ -163,3 +163,7 @@
 *[TCP]: Transmission Control Protocol
 
 *[LAN]: Local Area Network
+
+*[UI]: User Interface
+
+*[IELTS]: International English Language Testing System
