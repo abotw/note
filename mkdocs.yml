@@ -1,9 +1,9 @@
-site_name: Matt's Notebooks
+site_name: Matt's Notebook
 #site_url: 
 #repo_url: 
 #repo_name: 
 #edit_uri: 
-site_description: Matt's Notebooks
+site_description: Matt's Notebook
 site_author: Matt
 
 theme:

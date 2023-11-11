@@ -1,9 +1,5 @@
 # Resources
 
-## 1. Textbooks
-
-## 2. Readings
-
 ## Tools & Guides
 
 ### PL
